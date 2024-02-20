@@ -1,0 +1,67 @@
+
+             __  __       ____ _                                
+            |  \/  |___  / ___| | ___   __ _ _ __ _   _  
+            | |\/| | __|| |   | |/ _ \ / _` | '__| | | | 
+            | |  | |(__ | |___| |  __/| (_| | |  | |_| | 
+            |_|  |_|___| \____|_|\___| \__,_|_|   \__, | 
+                                                  |___/
+============================= ATTENTION =============================
+Use of Yale's electronic systems is governed by applicable laws
+and policies (https://your.yale.edu/policies-procedures). Violators and
+unauthorized access may be prosecuted.
+=====================================================================
+* No sensitive information may be stored on McCleary. Please see:
+    cybersecurity.yale.edu/protectyourdata
+* Grace documentation can be found here:
+    docs.ycrc.yale.edu/clusters/mccleary
+* To monitor your current storage usage & limits run:
+    getquota
+* To get the full paths of your storage spaces run:
+    mydirectories
+* The next maintenance period on McCleary will be April 2-4 2024
+* Please contact hpc@yale.edu for help or visit: docs.ycrc.yale.edu
+=====================================================================
+Last login: Tue Feb 20 13:32:58 2024 from 10.178.0.30
+[jfk48@login2.mccleary ~]$ ls
+Intro-to-HPC  ondemand  palmer_scratch  project  ycga_work
+[jfk48@login2.mccleary ~]$ cd Intro-to-HPC
+[jfk48@login2.mccleary Intro-to-HPC]$ ls
+office_hour_examples  README.md  workshop_examples
+[jfk48@login2.mccleary Intro-to-HPC]$ cd workshop_examples
+[jfk48@login2.mccleary workshop_examples]$ ls
+batch_example  interactive_example  parallel_example
+[jfk48@login2.mccleary workshop_examples]$ cd interactive_example
+[jfk48@login2.mccleary interactive_example]$ ls
+interpyexample.py
+[jfk48@login2.mccleary interactive_example]$ salloc -t 1:00:00
+salloc: Pending job allocation 21843464
+salloc: job 21843464 queued and waiting for resources
+salloc: job 21843464 has been allocated resources
+salloc: Granted job allocation 21843464
+salloc: Nodes r206u22n01 are ready for job
+[jfk48@r206u22n01.mccleary interactive_example]$ module load Python/3.8.5-GCCcore-10.2.0
+Lmod has detected the following error:  The following module(s) are unknown: "Python/3.8.5-GCCcore-10.2.0"
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "Python/3.8.5-GCCcore-10.2.0"
+Also make sure that all modulefiles written in TCL start with the string #%Module
+[jfk48@r206u22n01.mccleary interactive_example]$ module list
+Currently Loaded Modules:
+  1) StdEnv (S)
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+ 
+[jfk48@r206u22n01.mccleary interactive_example]$ module load Python/3.8.6-GCCcore-10.2.0
+[jfk48@r206u22n01.mccleary interactive_example]$ 
+[jfk48@r206u22n01.mccleary interactive_example]$ module list
+Currently Loaded Modules:
+  1) StdEnv                     (S)   4) binutils/2.35-GCCcore-10.2.0   7) libreadline/8.0-GCCcore-10.2.0  10) XZ/5.2.5-GCCcore-10.2.0    13) Python/3.8.6-GCCcore-10.2.0
+  2) GCCcore/10.2.0                   5) bzip2/1.0.8-GCCcore-10.2.0     8) Tcl/8.6.10-GCCcore-10.2.0       11) GMP/6.2.0-GCCcore-10.2.0
+  3) zlib/1.2.11-GCCcore-10.2.0       6) ncurses/6.2-GCCcore-10.2.0     9) SQLite/3.33.0-GCCcore-10.2.0    12) libffi/3.3-GCCcore-10.2.0
+
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+ 
+[jfk48@r206u22n01.mccleary interactive_example]$ 
+
