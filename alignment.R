@@ -1,7 +1,22 @@
 # Define the directory paths where the files are located
 directory_paths <- c(
   "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE36/Sample_NB22PE36_095_098",
-  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/NB22TE28/RQ18269/2607-2_SNaP_Bestradiol_1/Sample_2607-2_SNaP_Bestradiol_1_208_369"
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE38/Sample_NB22PE38_083_110",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE40/Sample_NB22PE40_071_122",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE42/Sample_NB22PE42_059_134",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE44/Sample_NB22PE44_047_146",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE46/Sample_NB22PE46_035_158",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE48/Sample_NB22PE48_023_170",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE50/Sample_NB22PE50_011_182",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE50/Sample_NB22PE50_011_182",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE52/Sample_NB22PE52_094_099",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE54/Sample_NB22PE54_082_111",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE56/Sample_NB22PE56_070_123",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE58/Sample_NB22PE58_058_135",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE60/Sample_NB22PE60_046_147",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE62/Sample_NB22PE62_034_159",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE64/Sample_NB22PE64_022_171",
+  "/gpfs/gibbs/pi/brennand/shared/projects/NDD/Novin/22SP01P8T1-1/RQ18781/NB22PE66/Sample_NB22PE66_010_183"
 )
 
 # Function to find R1 and R2 files in a directory
